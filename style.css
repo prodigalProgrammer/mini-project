@@ -12,10 +12,9 @@ body {
 header {
   width: 100%;
   background-color: #266150;
-  height: 60px;
+  height: 55px;
   padding: 20px 40px;
   border-bottom: #ddaf94 solid 10px;
-  /* position: fixed; */
 }
 
 .navbar {
@@ -30,7 +29,13 @@ header {
 .navbar li {
   display: inline;
   margin-left: 40px;
+  cursor: pointer;
 }
+
+.navbar li:hover {
+  color: dodgerblue;
+}
+
 h1 {
   text-align: center;
   margin: 5px;
@@ -136,4 +141,28 @@ form input {
   background-color: #4f4846;
   padding: 8px 35px;
   margin: 0 auto;
+  cursor: pointer;
+}
+
+#send-button:active {
+  scale: 0.97;
+}
+
+footer {
+  width: 100%;
+  background-color: #266150;
+  height: 55px;
+  border-bottom: #504846 solid 10px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+footer > p {
+  text-align: center;
+  color: #fdf8f5;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
