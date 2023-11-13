@@ -11,8 +11,11 @@ This landing page has a navigation bar along with a cool main area and contact f
 ## Features
 
 - Website created without any flex or grid properties. Old School!
+- Header has a fixed position throughout the page.
 - Hover cursor on Nav links & Send Button.
 - Nav links change color when hovered over.
 - Submit button disabled as to not redirect away from website.
 - Button looks like it presses down when clicked.
 - Form made with text and email inputs. Label elements are connected.
+- Created an img tag with caption and alt attribute.
+- Link in img caption take you to my YouTube channel.

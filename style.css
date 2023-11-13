@@ -5,8 +5,9 @@
 }
 
 body {
-  background-color: #fdf8f5;
+  background-color: #f0f6f8;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 65px;
 }
 
 header {
@@ -15,6 +16,9 @@ header {
   height: 55px;
   padding: 20px 40px;
   border-bottom: #ddaf94 solid 10px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .navbar {
@@ -38,8 +42,9 @@ header {
 
 h1 {
   text-align: center;
-  margin: 5px;
   color: #4c4544;
+  margin: 10px;
+  font-size: 30px;
 }
 .box {
   width: 300px;
@@ -93,6 +98,20 @@ p {
   text-align: center;
   color: #4c4544;
   margin-bottom: 30px;
+}
+
+.dbz {
+  margin: 40px auto;
+  width: 400px;
+}
+
+.dbz img {
+  width: 400px;
+}
+
+.dbz a {
+  color: dodgerblue;
+  text-decoration: none;
 }
 
 .contact {
