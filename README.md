@@ -1,8 +1,10 @@
 # mini-project: My New Website Clone
 
+<img src="  Mini-Project.png" alt="Screenshot of Mini-Project">
+
 ## Description
 
-This was a mini project on the course I was taking. We were tasked to clone the landing page and write the code to accompany it.
+This was a mini project on the course I was taking. We were tasked to clone the landing page and write the code to accompany it. Find the link to the webpage here: https://prodigalprogrammer.github.io/mini-project/
 
 ## Usage
 
